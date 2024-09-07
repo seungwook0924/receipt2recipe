@@ -14,10 +14,10 @@ jobs:
 
     steps:
     - name: Checkout the code
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3  # v3로 업데이트
 
     - name: Set up JDK 17
-      uses: actions/setup-java@v2
+      uses: actions/setup-java@v3  # v3로 업데이트
       with:
         distribution: 'temurin'
         java-version: '17'
@@ -30,7 +30,7 @@ jobs:
       working-directory: ./SpringBoot
 
     - name: Set up Docker Buildx
-      uses: docker/setup-buildx-action@v2
+      uses: docker/setup-buildx-action@v3  # v3로 업데이트
 
     - name: Log in to DockerHub
       run: echo "${{ secrets.DOCKERHUB_TOKEN }}" | docker login -u "${{ secrets.DOCKERHUB_USERNAME }}" --password-stdin
