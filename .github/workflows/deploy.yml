@@ -57,6 +57,6 @@ jobs:
         key: ${{ secrets.R2R_EC2_PRIVATE_KEY }}
         script: |
           cd /home/ubuntu/r2r
-          docker-compose down
-          docker-compose pull
-          docker-compose up -d
+          docker compose down
+          docker compose pull
+          docker compose up -d
