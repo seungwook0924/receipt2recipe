@@ -32,10 +32,17 @@ jobs:
     - name: Log in to DockerHub
       run: echo "${{ secrets.DOCKERHUB_TOKEN }}" | docker login -u "${{ secrets.DOCKERHUB_USERNAME }}" --password-stdin
 
+    # SpringBoot 애플리케이션 이미지 빌드 및 푸시
     - name: Build and push r2r image
       run: |
-        docker build -t leesw0924/r2r ./SpringBoot/  # SpringBoot 디렉터리로 설정
+        docker build -t leesw0924/r2r ./SpringBoot/
         docker push leesw0924/r2r
+
+    # MySQL 이미지 빌드 및 푸시
+    - name: Build and push MySQL image
+      run: |
+        docker build -t leesw0924/r2r-mysql ./mysql/
+        docker push leesw0924/r2r-mysql
 
   deploy:
     runs-on: ubuntu-latest
@@ -50,6 +57,6 @@ jobs:
         key: ${{ secrets.R2R_EC2_PRIVATE_KEY }}
         script: |
           cd /home/ubuntu/r2r
-          docker compose down
-          docker compose pull
-          docker compose up -d
+          docker-compose down
+          docker-compose pull
+          docker-compose up -d
