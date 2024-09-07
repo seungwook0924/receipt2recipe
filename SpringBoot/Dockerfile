@@ -5,7 +5,7 @@ FROM openjdk:17-jdk
 WORKDIR /spring-boot
 
 # 빌드된 JAR 파일을 컨테이너로 복사
-COPY SpringBoot/build/libs/*SNAPSHOT.jar r2r.jar
+COPY build/libs/*SNAPSHOT.jar r2r.jar
 
 # 애플리케이션 실행
 ENTRYPOINT ["java", "-jar", "/spring-boot/r2r.jar"]
