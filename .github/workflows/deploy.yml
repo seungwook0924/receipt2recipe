@@ -24,6 +24,7 @@ jobs:
           key: ${{ secrets.R2R_EC2_PRIVATE_KEY }}
           source: ./compose.yml
           target: /home/ubuntu/r2r/compose.yml
+          overwrite: true
 
       - name: SSH to EC2 and Deploy
         uses: appleboy/ssh-action@v1.0.3
