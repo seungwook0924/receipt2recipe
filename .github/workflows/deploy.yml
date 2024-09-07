@@ -41,8 +41,8 @@ jobs:
     # MySQL 이미지 빌드 및 푸시
     - name: Build and push MySQL image
       run: |
-        docker build -t leesw0924/r2r-mysql ./mysql/
-        docker push leesw0924/r2r-mysql
+        docker build -t leesw0924/r2rdb ./mysql/
+        docker push leesw0924/r2rdb
 
   deploy:
     runs-on: ubuntu-latest
