@@ -12,10 +12,10 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
+    steps:  # 이 부분의 들여쓰기를 수정함
     - name: Log in to DockerHub
       run: echo "${{ secrets.DOCKERHUB_TOKEN }}" | docker login -u "${{ secrets.DOCKERHUB_USERNAME }}" --password-stdin
 
-    steps:
     - name: Checkout the code
       uses: actions/checkout@v2
 
