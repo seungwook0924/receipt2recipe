@@ -22,8 +22,8 @@ jobs:
           host: ${{ secrets.R2R_EC2_HOST }}
           username: ${{ secrets.R2R_EC2_USERNAME }}
           key: ${{ secrets.R2R_EC2_PRIVATE_KEY }}
-          source: ./compose.yml
-          target: /home/ubuntu/r2r/compose.yml
+          source: ./compose.yml  # 로컬 레포지토리의 compose.yml 파일 경로
+          target: /home/ubuntu/r2r/compose.yml  # EC2 서버의 대상 경로 (파일)
 
       - name: SSH to EC2 and Deploy
         uses: appleboy/ssh-action@v1.0.3
