@@ -33,7 +33,7 @@ public class MainController {
     private final HeartService heartService;
 
     @GetMapping("/")
-    public String index(HttpSession session, Model model) {
+    public String index() {
         return "redirect:/main";
     }
 
