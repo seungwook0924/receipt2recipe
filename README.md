@@ -1,4 +1,5 @@
-# 강원대학교 캡스톤디자인 - Recepit2Recipe
+# Recepit2Recipe
+## linc 3.0 강원대학교 캡스톤디자인 경진대회 동상 수상작(2024 - 1)
 
 ---
 
