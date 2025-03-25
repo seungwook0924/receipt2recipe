@@ -21,12 +21,12 @@ Temporary Items
 *.javadoc  
 
 # ========== Gradle ==========  
-.gradle/
-.gradle-cache/
-**/build/
-**/out/
+/SpringBoot/.gradle/
+/SpringBoot/.gradle-cache/
+/SpringBoot/build/
+/SpringBoot/out/
 *.lock
-!gradle-wrapper.jar
+!/SpringBoot/gradle/wrapper/gradle-wrapper.jar
 
 # ========== IntelliJ / WebStorm ==========  
 .idea/
@@ -35,46 +35,46 @@ Temporary Items
 *.iws
 
 # ========== Spring Boot ==========
-# 환경 설정
+# 설정 파일 무시
 /SpringBoot/src/main/resources/application*.yml
 /SpringBoot/src/main/resources/application*.yaml
 /SpringBoot/src/main/resources/application*.properties
 
-# 로그, 업로드 디렉토리
-/SpringBoot/log/
+# 로그, 업로드 디렉토리 무시
+/SpringBoot/logs/
 /SpringBoot/uploads/
-/SpringBoot/report-images/
-*.gz
-*.tmp
+
+# 로그 파일 무시
 *.log
+*.tmp
+*.gz
 
 # ========== React (WebStorm 포함) ==========
-# Node
-node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
+/React/node_modules/
+/React/npm-debug.log*
+/React/yarn-debug.log*
+/React/yarn-error.log*
+/React/pnpm-debug.log*
 
 # 빌드 결과물
-/build/
-/dist/
-/.next/
-.coverage/
-.cache/
+/React/build/
+/React/dist/
+/React/.next/
+/React/.cache/
+/React/coverage/
 
 # 환경 설정
-.env
-.env.*
-*.env.local
-*.env.development
-*.env.production
+/React/.env
+/React/.env.*
+/React/*.env.local
+/React/*.env.development
+/React/*.env.production
 
 # 기타 설정 및 IDE
 .vscode/
-.idea_modules/
-*.sublime-workspace
-*.sublime-project
+/.idea_modules/
+/*.sublime-workspace
+/*.sublime-project
 
 # ========== OS 쓰레기 ==========
 Thumbs.db
@@ -83,5 +83,5 @@ ehthumbs.db
 Icon?
 
 # ========== 기타 ==========
-MySQL/ignore/
-etc/ignore/
+/MySQL/ignore/
+/etc/ignore/
