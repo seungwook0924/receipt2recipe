@@ -36,9 +36,9 @@ Temporary Items
 
 # ========== Spring Boot ==========
 # 환경 설정
-/src/main/resources/application*.yml
-/src/main/resources/application*.yaml
-/src/main/resources/application*.properties
+/SpringBoot/src/main/resources/application*.yml
+/SpringBoot/src/main/resources/application*.yaml
+/SpringBoot/src/main/resources/application*.properties
 
 # 로그, 업로드 디렉토리
 /SpringBoot/log/
@@ -83,4 +83,5 @@ ehthumbs.db
 Icon?
 
 # ========== 기타 ==========
-MySQL/ignore
+MySQL/ignore/
+etc/ignore/
