@@ -1,14 +1,13 @@
-package com.receipt2recipe.r2r.api;
+package com.seungwook.r2r.api;
 
-import com.receipt2recipe.r2r.domain.*;
-import com.receipt2recipe.r2r.dto.*;
-import com.receipt2recipe.r2r.exception.UniqueConstraintViolationException;
-import com.receipt2recipe.r2r.service.*;
+import com.seungwook.r2r.domain.*;
+import com.seungwook.r2r.dto.*;
+import com.seungwook.r2r.exception.UniqueConstraintViolationException;
+import com.seungwook.r2r.service.*;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 import jakarta.servlet.http.HttpSession;
 

@@ -1,11 +1,10 @@
-package com.receipt2recipe.r2r.interceptor;
+package com.seungwook.r2r.interceptor;
 
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import jakarta.servlet.http.HttpSession;
 import org.springframework.stereotype.Component;
 import org.springframework.web.servlet.HandlerInterceptor;
-import org.springframework.web.servlet.config.annotation.CorsRegistry;
 
 @Component
 public class LoginInterceptor implements HandlerInterceptor {

@@ -1,4 +1,4 @@
-package com.receipt2recipe.r2r.config;
+package com.seungwook.r2r.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;

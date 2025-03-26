@@ -1,6 +1,6 @@
-package com.receipt2recipe.r2r.repository;
+package com.seungwook.r2r.repository;
 
-import com.receipt2recipe.r2r.domain.RefAndIgdt;
+import com.seungwook.r2r.domain.RefAndIgdt;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.receipt2recipe.r2r.service;
+package com.seungwook.r2r.service;
 
 import com.google.cloud.vision.v1.*;
 import com.google.protobuf.ByteString;

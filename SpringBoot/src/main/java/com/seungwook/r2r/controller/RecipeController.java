@@ -1,12 +1,12 @@
-package com.receipt2recipe.r2r.controller;
+package com.seungwook.r2r.controller;
 
-import com.receipt2recipe.r2r.domain.Member;
-import com.receipt2recipe.r2r.domain.Recipe;
-import com.receipt2recipe.r2r.domain.Review;
-import com.receipt2recipe.r2r.dto.RecipeDTO;
-import com.receipt2recipe.r2r.service.HeartService;
-import com.receipt2recipe.r2r.service.RecipeService;
-import com.receipt2recipe.r2r.service.ReviewService;
+import com.seungwook.r2r.domain.Member;
+import com.seungwook.r2r.domain.Recipe;
+import com.seungwook.r2r.domain.Review;
+import com.seungwook.r2r.dto.RecipeDTO;
+import com.seungwook.r2r.service.HeartService;
+import com.seungwook.r2r.service.RecipeService;
+import com.seungwook.r2r.service.ReviewService;
 import jakarta.servlet.http.HttpSession;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Controller;

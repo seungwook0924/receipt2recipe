@@ -1,11 +1,11 @@
 plugins {
 	id 'java'
-	id 'org.springframework.boot' version '3.2.5'
-	id 'io.spring.dependency-management' version '1.1.4'
+	id 'org.springframework.boot' version '3.4.4'
+	id 'io.spring.dependency-management' version '1.1.7'
 }
 
-group = 'com.receipt2recipe'
-version = '1.0.1-SNAPSHOT'
+group = 'com.seungwook.r2r'
+version = '1.0.0-SNAPSHOT'
 
 java {
 	sourceCompatibility = '17'
@@ -36,6 +36,9 @@ dependencies {
 	implementation 'com.google.cloud:google-cloud-vision:3.34.0'
 	implementation 'org.jsoup:jsoup:1.14.1'
 	implementation 'com.google.code.gson:gson:2.8.6'
+
+	// geoip2
+	implementation "com.maxmind.geoip2:geoip2:4.1.0"
 }
 
 tasks.named('test') {

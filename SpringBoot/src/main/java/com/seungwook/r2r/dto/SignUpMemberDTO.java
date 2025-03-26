@@ -1,4 +1,4 @@
-package com.receipt2recipe.r2r.dto;
+package com.seungwook.r2r.dto;
 
 import lombok.Getter;
 import lombok.Setter;

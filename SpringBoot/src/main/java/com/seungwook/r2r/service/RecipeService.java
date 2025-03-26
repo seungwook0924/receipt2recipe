@@ -1,12 +1,12 @@
-package com.receipt2recipe.r2r.service;
+package com.seungwook.r2r.service;
 
-import com.receipt2recipe.r2r.domain.Member;
-import com.receipt2recipe.r2r.domain.Recipe;
-import com.receipt2recipe.r2r.domain.Review;
-import com.receipt2recipe.r2r.dto.*;
-import com.receipt2recipe.r2r.exception.UniqueConstraintViolationException;
-import com.receipt2recipe.r2r.repository.MemberRepository;
-import com.receipt2recipe.r2r.repository.RecipeRepository;
+import com.seungwook.r2r.domain.Member;
+import com.seungwook.r2r.domain.Recipe;
+import com.seungwook.r2r.domain.Review;
+import com.seungwook.r2r.dto.*;
+import com.seungwook.r2r.exception.UniqueConstraintViolationException;
+import com.seungwook.r2r.repository.MemberRepository;
+import com.seungwook.r2r.repository.RecipeRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.stereotype.Service;

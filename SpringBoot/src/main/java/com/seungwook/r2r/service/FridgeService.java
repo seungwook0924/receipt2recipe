@@ -1,17 +1,15 @@
-package com.receipt2recipe.r2r.service;
+package com.seungwook.r2r.service;
 
-import com.receipt2recipe.r2r.domain.Fridge;
-import com.receipt2recipe.r2r.domain.Ingredient;
-import com.receipt2recipe.r2r.domain.Recipe;
-import com.receipt2recipe.r2r.domain.RefAndIgdt;
-import com.receipt2recipe.r2r.dto.RefAndIgdtDTO;
-import com.receipt2recipe.r2r.exception.UniqueConstraintViolationException;
-import com.receipt2recipe.r2r.repository.FridgeRepository;
-import com.receipt2recipe.r2r.repository.IngredientRepository;
-import com.receipt2recipe.r2r.repository.RecipeRepository;
-import com.receipt2recipe.r2r.repository.RefAndIgdtRepository;
+import com.seungwook.r2r.domain.Fridge;
+import com.seungwook.r2r.domain.Ingredient;
+import com.seungwook.r2r.domain.Recipe;
+import com.seungwook.r2r.domain.RefAndIgdt;
+import com.seungwook.r2r.dto.RefAndIgdtDTO;
+import com.seungwook.r2r.repository.FridgeRepository;
+import com.seungwook.r2r.repository.IngredientRepository;
+import com.seungwook.r2r.repository.RecipeRepository;
+import com.seungwook.r2r.repository.RefAndIgdtRepository;
 import lombok.RequiredArgsConstructor;
-import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.stereotype.Service;
 

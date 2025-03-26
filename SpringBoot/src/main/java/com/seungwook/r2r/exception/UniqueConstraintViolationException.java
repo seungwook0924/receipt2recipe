@@ -1,4 +1,4 @@
-package com.receipt2recipe.r2r.exception;
+package com.seungwook.r2r.exception;
 
 public class UniqueConstraintViolationException extends RuntimeException {
     public UniqueConstraintViolationException(String message) {

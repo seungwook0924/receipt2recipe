@@ -1,8 +1,8 @@
-package com.receipt2recipe.r2r.service;
+package com.seungwook.r2r.service;
 
-import com.receipt2recipe.r2r.domain.Member;
-import com.receipt2recipe.r2r.dto.LoginMemberDTO;
-import com.receipt2recipe.r2r.repository.MemberRepository;
+import com.seungwook.r2r.domain.Member;
+import com.seungwook.r2r.dto.LoginMemberDTO;
+import com.seungwook.r2r.repository.MemberRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

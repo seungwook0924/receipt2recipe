@@ -1,13 +1,11 @@
-package com.receipt2recipe.r2r.controller;
+package com.seungwook.r2r.controller;
 
-import com.receipt2recipe.r2r.domain.*;
-import com.receipt2recipe.r2r.dto.RecipeDTO;
-import com.receipt2recipe.r2r.dto.RefAndIgdtDTO;
-import com.receipt2recipe.r2r.exception.UniqueConstraintViolationException;
-import com.receipt2recipe.r2r.service.FridgeService;
-import com.receipt2recipe.r2r.service.HeartService;
-import com.receipt2recipe.r2r.service.IngredientService;
-import com.receipt2recipe.r2r.service.RecipeService;
+import com.seungwook.r2r.domain.*;
+import com.seungwook.r2r.dto.RecipeDTO;
+import com.seungwook.r2r.service.FridgeService;
+import com.seungwook.r2r.service.HeartService;
+import com.seungwook.r2r.service.IngredientService;
+import com.seungwook.r2r.service.RecipeService;
 import jakarta.servlet.http.HttpSession;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

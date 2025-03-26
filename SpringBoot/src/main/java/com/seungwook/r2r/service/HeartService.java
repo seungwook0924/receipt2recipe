@@ -1,12 +1,12 @@
-package com.receipt2recipe.r2r.service;
+package com.seungwook.r2r.service;
 
-import com.receipt2recipe.r2r.domain.Heart;
-import com.receipt2recipe.r2r.domain.Member;
-import com.receipt2recipe.r2r.domain.Recipe;
-import com.receipt2recipe.r2r.dto.HeartDTO;
-import com.receipt2recipe.r2r.repository.HeartRepository;
-import com.receipt2recipe.r2r.repository.MemberRepository;
-import com.receipt2recipe.r2r.repository.RecipeRepository;
+import com.seungwook.r2r.domain.Heart;
+import com.seungwook.r2r.domain.Member;
+import com.seungwook.r2r.domain.Recipe;
+import com.seungwook.r2r.dto.HeartDTO;
+import com.seungwook.r2r.repository.HeartRepository;
+import com.seungwook.r2r.repository.MemberRepository;
+import com.seungwook.r2r.repository.RecipeRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

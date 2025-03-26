@@ -1,7 +1,7 @@
-package com.receipt2recipe.r2r.service;
+package com.seungwook.r2r.service;
 
-import com.receipt2recipe.r2r.domain.Ingredient;
-import com.receipt2recipe.r2r.repository.IngredientRepository;
+import com.seungwook.r2r.domain.Ingredient;
+import com.seungwook.r2r.repository.IngredientRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

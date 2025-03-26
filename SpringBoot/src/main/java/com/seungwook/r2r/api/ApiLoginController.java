@@ -1,9 +1,9 @@
-package com.receipt2recipe.r2r.api;
+package com.seungwook.r2r.api;
 
-import com.receipt2recipe.r2r.dto.LoginMemberDTO;
-import com.receipt2recipe.r2r.domain.Member;
-import com.receipt2recipe.r2r.dto.SignUpMemberDTO;
-import com.receipt2recipe.r2r.service.MemberService;
+import com.seungwook.r2r.dto.LoginMemberDTO;
+import com.seungwook.r2r.domain.Member;
+import com.seungwook.r2r.dto.SignUpMemberDTO;
+import com.seungwook.r2r.service.MemberService;
 import jakarta.servlet.http.HttpSession;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;

@@ -1,10 +1,10 @@
-package com.receipt2recipe.r2r;
+package com.seungwook.r2r;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class R2rApplicationTests {
+class Receipt2RecipeTests {
 
 	@Test
 	void contextLoads() {

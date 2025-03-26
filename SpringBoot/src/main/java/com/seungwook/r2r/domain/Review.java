@@ -1,4 +1,4 @@
-package com.receipt2recipe.r2r.domain;
+package com.seungwook.r2r.domain;
 
 import jakarta.persistence.*;
 import lombok.Getter;

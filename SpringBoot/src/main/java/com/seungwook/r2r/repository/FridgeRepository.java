@@ -1,6 +1,8 @@
-package com.receipt2recipe.r2r.repository;
+package com.seungwook.r2r.repository;
 
-import com.receipt2recipe.r2r.domain.Fridge;
+import com.seungwook.r2r.domain.Fridge;
+import lombok.extern.slf4j.Slf4j;
+import org.springframework.context.annotation.Bean;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

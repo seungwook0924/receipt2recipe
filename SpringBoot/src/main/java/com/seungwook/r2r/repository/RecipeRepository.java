@@ -1,6 +1,6 @@
-package com.receipt2recipe.r2r.repository;
+package com.seungwook.r2r.repository;
 
-import com.receipt2recipe.r2r.domain.Recipe;
+import com.seungwook.r2r.domain.Recipe;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.repository.PagingAndSortingRepository;
 import org.springframework.data.repository.query.Param;

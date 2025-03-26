@@ -1,9 +1,9 @@
-package com.receipt2recipe.r2r.controller;
+package com.seungwook.r2r.controller;
 
-import com.receipt2recipe.r2r.dto.LoginMemberDTO;
-import com.receipt2recipe.r2r.dto.SignUpMemberDTO;
-import com.receipt2recipe.r2r.domain.Member;
-import com.receipt2recipe.r2r.service.MemberService;
+import com.seungwook.r2r.dto.LoginMemberDTO;
+import com.seungwook.r2r.dto.SignUpMemberDTO;
+import com.seungwook.r2r.domain.Member;
+import com.seungwook.r2r.service.MemberService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Controller;

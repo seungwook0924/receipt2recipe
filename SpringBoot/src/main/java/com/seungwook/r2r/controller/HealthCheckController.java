@@ -1,4 +1,4 @@
-package com.receipt2recipe.r2r.controller;
+package com.seungwook.r2r.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
